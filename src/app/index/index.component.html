@@ -1,0 +1,32 @@
+<p>index works!</p>
+<br><br>
+
+<mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+    <mat-button-toggle value="bold">Bold</mat-button-toggle>
+    <mat-button-toggle value="italic">Italic</mat-button-toggle>
+    <mat-button-toggle value="underline">Underline</mat-button-toggle>
+  </mat-button-toggle-group>
+
+<br><br>
+
+  <h5>Multiple selection</h5><br>
+<mat-button-toggle-group name="ingredients" aria-label="Ingredients" multiple>
+  <mat-button-toggle value="flour">Flour</mat-button-toggle>
+  <mat-button-toggle value="eggs">Eggs</mat-button-toggle>
+  <mat-button-toggle value="sugar">Sugar</mat-button-toggle>
+</mat-button-toggle-group>
+
+
+<br><br>
+
+
+<p><mat-slide-toggle>Slide me!</mat-slide-toggle></p>
+<p><mat-slide-toggle labelPosition="before">...and slide me too!</mat-slide-toggle></p>
+
+<br><br>
+
+<button mat-raised-button
+        matTooltip="Info about the action"
+        aria-label="Button that displays a tooltip when focused or hovered over">
+  Action
+</button>
